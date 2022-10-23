@@ -1,0 +1,13 @@
+.nav {
+    display: flex;
+    justify-content: space-around;
+
+    &__right {
+        display: flex;
+        gap: 1em;
+    }
+
+    &__home {
+        color: green;
+    }
+}
