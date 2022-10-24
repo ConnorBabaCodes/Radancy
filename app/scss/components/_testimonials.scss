@@ -1,0 +1,18 @@
+.testimonials {
+    margin: 0 20% 0 20%;
+
+    &__container {
+        margin-top: 2rem;
+        display: grid;
+        justify-items: center;
+        
+    }
+    &__quote {
+        color: var(--testimonial-text);
+        font-style: italic;
+    }
+    &__name {
+        color: var(--testimonial-name-text);
+    }
+
+}

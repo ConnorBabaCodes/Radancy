@@ -1,0 +1,11 @@
+.citizens-home-loans {
+    &__dark-green {
+        color: var(--white-text);
+        background-color: var(--accent-color);
+       
+    }
+    &__light-green {
+        
+        background-color: var(--secondary-color);
+    }
+}

@@ -1,0 +1,5 @@
+.green-border {
+    width: clamp(100px, 25%, 200px);
+    border-bottom: 3px solid var(--accent-color);
+    margin: auto;
+}

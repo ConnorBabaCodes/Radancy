@@ -10,42 +10,111 @@ html {
 body {
   margin: 0;
   padding: 0;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Arial, sans-serif;
   background-color: var(--background-color);
-  color: var(--text-color);
+}
+
+main {
+  margin: 1rem;
 }
 
 h1,
 h2,
 h3 {
-  font-weight: 700;
+  font-weight: 400;
   line-height: 1.1;
   margin-top: 0;
+  color: var(--accent-color);
+}
+
+h1, h2 {
+  text-align: center;
 }
 
 p {
-  margin-top: 0;
+  color: var(--text-color);
+  line-height: 1.5rem;
 }
 
 a,
 a:visited,
 a:active {
   text-decoration: none;
+  color: var(--link-color);
 }
 
 :root {
-  --background-color: pink;
-  --text-color: white;
+  --background-color: #ffffff;
+  --accent-color: #00945f;
+  --secondary-color: #ebf7f5;
+  --text-color: #888888;
+  --testimonial-text: #666666;
+  --testimonial-name-text: #29ae8d;
+  --button-color: #e97300;
+  --button-text: #ffffff;
+  --link-color: #759b24;
+  --hr-color: #c2c2c2;
+  --white-text: #ffffff;
 }
 
 .nav {
   display: flex;
   justify-content: space-around;
 }
-.nav__right {
-  display: flex;
-  gap: 1em;
+
+.citizens-home-loans__dark-green {
+  color: var(--white-text);
+  background-color: var(--accent-color);
 }
-.nav__home {
-  color: green;
+.citizens-home-loans__light-green {
+  background-color: var(--secondary-color);
+}
+
+.footer {
+  border-top: 1px solid var(--accent-color);
+}
+.footer__social {
+  display: flex;
+  gap: 1rem;
+}
+
+.career__center {
+  display: flex;
+  justify-content: center;
+}
+.career__btn {
+  background-color: var(--button-color);
+  color: var(--button-text);
+  border: none;
+  padding: 0.5rem 1.5rem 0.5rem 1.5rem;
+  font-size: 1.25rem;
+  letter-spacing: 1px;
+}
+
+.green-border {
+  width: clamp(100px, 25%, 200px);
+  border-bottom: 3px solid var(--accent-color);
+  margin: auto;
+}
+
+hr {
+  height: 1px;
+  background-color: var(--hr-color);
+  border: none;
+}
+
+.testimonials {
+  margin: 0 20% 0 20%;
+}
+.testimonials__container {
+  margin-top: 2rem;
+  display: grid;
+  justify-items: center;
+}
+.testimonials__quote {
+  color: var(--testimonial-text);
+  font-style: italic;
+}
+.testimonials__name {
+  color: var(--testimonial-name-text);
 }/*# sourceMappingURL=style.css.map */
