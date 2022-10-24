@@ -13,6 +13,12 @@
         gap: 1rem;
     }
 
+    &__link {
+        //these heights are set for site performance. change in svg files
+        height: 30px;
+        width: 30px;
+    }
+
     &__disclaimer {
         font-size: .9rem;
         line-height: 1.2;
@@ -30,5 +36,12 @@
 
     &__nav {
         color: black;
+        transition: .2s;
+
+        &:hover {
+            color: var(--accent-color);
+        }
+
     }
+
 }

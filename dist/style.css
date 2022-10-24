@@ -71,7 +71,22 @@ a:active {
 }
 @media (min-width: 1024px) {
   .nav__logo {
-    margin: 2rem 0 2rem 2rem;
+    margin: 3rem 0 4rem 2rem;
+  }
+}
+
+.hero .mobile {
+  display: block;
+}
+.hero .desktop {
+  display: none;
+}
+@media (min-width: 1024px) {
+  .hero .mobile {
+    display: none;
+  }
+  .hero .desktop {
+    display: block;
   }
 }
 
@@ -158,6 +173,10 @@ a:active {
   display: flex;
   gap: 1rem;
 }
+.footer__link {
+  height: 30px;
+  width: 30px;
+}
 .footer__disclaimer {
   font-size: 0.9rem;
   line-height: 1.2;
@@ -170,6 +189,10 @@ a:active {
 }
 .footer__nav {
   color: black;
+  transition: 0.2s;
+}
+.footer__nav:hover {
+  color: var(--accent-color);
 }
 
 .green-border {
@@ -201,6 +224,8 @@ hr {
 .testimonials__image {
   display: block;
   margin: auto;
+  width: 180px;
+  height: 180px;
 }
 .testimonials__text {
   color: var(--alt-text-color);
