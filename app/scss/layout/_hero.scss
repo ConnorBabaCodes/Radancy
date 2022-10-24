@@ -1,20 +1,20 @@
+@use "../base";
+
 .hero {
+  .mobile {
+    display: block;
+  }
 
+  .desktop {
+    display: none;
+  }
+
+  @include base.lg {
     .mobile {
-        display: block;
+      display: none;
     }
-
     .desktop {
-        display: none;
+      display: block;
     }
-
-    @media (min-width:1024px) {
-
-        .mobile {
-            display: none;
-        }
-        .desktop {
-            display: block
-        }
-    }
+  }
 }

@@ -23,7 +23,6 @@ h2,
 h3 {
   font-weight: 400;
   line-height: 1.1;
-  margin-top: 0;
   color: var(--accent-color);
 }
 
@@ -94,6 +93,9 @@ a:active {
   margin-top: 2rem;
   margin-bottom: 2rem;
 }
+.career__header {
+  margin-bottom: 0.75rem;
+}
 .career__center {
   display: flex;
   justify-content: center;
@@ -130,13 +132,16 @@ a:active {
 }
 @media (min-width: 1024px) {
   .citizens-home-loans__light-green {
-    padding: 2rem;
+    padding: 2rem 4rem 2rem 4rem;
   }
 }
 
 .citizens-advantage > * {
   margin-top: 2rem;
   margin-bottom: 2rem;
+}
+.citizens-advantage__header {
+  margin-bottom: 0.75rem;
 }
 .citizens-advantage__link {
   color: var(--link-color);
@@ -149,10 +154,13 @@ a:active {
   font-size: 1.2rem;
 }
 @media (min-width: 1024px) {
+  .citizens-advantage {
+    margin-bottom: 4rem;
+  }
   .citizens-advantage__list {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    row-gap: 4rem;
+    row-gap: 6rem;
   }
   .citizens-advantage__right {
     border-left: 1px solid var(--divider-color);
@@ -160,6 +168,12 @@ a:active {
   }
   .citizens-advantage__left {
     padding-right: 3.5rem;
+  }
+  .citizens-advantage__item {
+    margin-top: 0;
+  }
+  .citizens-advantage__text {
+    margin-bottom: 0;
   }
 }
 

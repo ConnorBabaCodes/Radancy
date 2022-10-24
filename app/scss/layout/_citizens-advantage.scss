@@ -1,42 +1,45 @@
-@use '../base';
+@use "../base";
 
 .citizens-advantage {
+  > * {
+    @include base.spacing;
+  }
 
-    > * {
-        @include base.spacing;
+  &__header {
+    margin-bottom: 0.75rem;
+  }
+
+  &__link {
+    color: var(--link-color);
+    transition: 0.5s;
+
+    &:hover {
+      color: var(--button-color);
     }
+  }
 
-    &__link {
-        color: var(--link-color);
-        transition: .5s;
+  @include base.lg {
+    margin-bottom: 4rem;
 
-        &:hover {
-            color: var(--button-color);
-        }
-    }
-
-    &__carrot {
-        font-size: 1.2rem;
-        
-    }
-
-    @media (min-width: 1024px)
-{
     &__list {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        row-gap: 4rem;
-        
-     }
-     &__right {
-         border-left: 1px solid var(--divider-color);
-         padding-left: 3.5rem;
-         
-         
-     }
-     &__left {
-        padding-right: 3.5rem;
-     }
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      row-gap: 6rem;
+    }
+    &__right {
+      border-left: 1px solid var(--divider-color);
+      padding-left: 3.5rem;
+    }
+    &__left {
+      padding-right: 3.5rem;
+    }
 
-}
+    &__item {
+      margin-top: 0;
+    }
+
+    &__text {
+      margin-bottom: 0;
+    }
+  }
 }

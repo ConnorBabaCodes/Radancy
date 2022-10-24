@@ -1,33 +1,27 @@
 // for "Citizens Bank and Citizens One Home Loans" Box styling
 
-@use '../base';
+@use "../base";
 
 .citizens-home-loans {
-    &__dark-green {
+  &__dark-green {
+    color: var(--white-text);
+    background-color: var(--accent-color);
+    padding: 1.5rem;
+    font-size: 1.5rem;
+  }
+  &__light-green {
+    background-color: var(--secondary-color);
+    padding: 1rem;
+  }
 
-        color: var(--white-text);
-        background-color: var(--accent-color);
-        padding: 1.5rem;
-        font-size: 1.5rem;
-        
-    }
+  &__dark-green,
+  &__light-green {
+    @include base.no-v-margin;
+  }
+
+  @include base.lg {
     &__light-green {
-
-        background-color: var(--secondary-color);
-        padding: 1rem;
-        
+      padding: 2rem 4rem 2rem 4rem;
     }
-
-    &__dark-green, &__light-green {
-
-        @include base.no-v-margin;
-        
-
-    }
-
-    @media (min-width: 1024px) {
-        &__light-green {
-            padding: 2rem;
-        }
-    }
+  }
 }
