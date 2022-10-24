@@ -10,17 +10,19 @@
 <body>
     <header>
         <nav class="nav">
-            <img src="/dist/assets/logo.svg" alt="Citizens Bank Logo" >
+            <img class="nav__logo" src="/dist/assets/logo.svg" alt="Citizens Bank Logo" >
             
         </nav>
     </header>
     <section class="hero">
-    <img src="/dist/assets/HeroV1.png" alt="hero image">
+   <!-- <img src="/dist/assets/Hero-mobile.png" alt="hero image"> -->
      </section> 
     <main>
          <section class="career">
+            <div>
             <h1>Our investment in you.</h1>
             <div class="green-border"></div>
+            </div>
             <p>As a Mortgage Loan Officer with Citizens, you'll work directly with your customers, 
                 walking them through our unique product suite. 
                 You'll enjoy the offerings of a larger bank along with the entrepreneurial spirit and 
@@ -30,15 +32,21 @@
             </div>  
          </section>
          <section class="citizens-advantage">
+            <div>
             <h2>Get the Citizens advantage.</h2>
             <div class="green-border"></div>
+        </div>
+            <div class="citizens-advantage__list">
+                <div class="citizens-advantage__left">
             <h3>Unique Products</h3>
             <p>
                 Our loan programs offer a variety of solutions to help you compete effectively across a broad spectrum of borrowers.
                 With our strong balance sheet, we can offer great conventional and portfolio loan Productsthat give you a competitive edge.
             </p>
-            <a href="#">Learn more about our products.</a>
+            <a class="citizens-advantage__link" href="#">Learn more about our products. <span class="citizens-advantage__carrot">&#65310</span></a>
             <hr>
+        </div>
+        <div class="citizens-advantage__right">
             <h3>
                 Exceptional support
             </h3>
@@ -49,16 +57,23 @@
 
             </p>
             <hr>
+        </div>
+        <div class="citizens-advantage__left">
             <h3>Closing on-time, every time</h3>
             <p>
                 We expanded our regional operations centers to help to support you and take care of paperwork during closing time.
                 Our one-team "pod" operations approach helps you create satisfied customers and referral sources.
             </p>
             <hr>
+            </div>
+            <div class="citizens-advantage__right">
             <h3>You'll have a voice</h3>
             <p>In order to give our customers the best service, we'll give you a real voice in how we operate. 
                 Through our Sales Advisory Board, Sales Conferences, and our Top Producers Council, 
                 you can drive real change in the company.</p>
+                
+            </div>
+            </div>
          </section>
          <section class="citizens-home-loans">
             <h2 class="citizens-home-loans__dark-green">Citizens Bank and Citizens One Home Loans</h2>
@@ -72,15 +87,17 @@
          </section>
          <section class="testimonials">
             <div class="testimonials__container">
-                <img src="dist/assets/Ed.png">
-                <p class="testimonials__quote">"Citizens Bank is in a growth mode. We're planning to be around for the long term and we're proving
+                <img class="testimonials__image" src="dist/assets/Ed.png">
+                <p class="testimonials__text">
+                    "Citizens Bank is in a growth mode. We're planning to be around for the long term and we're proving
                     that by growing sales."
                 </p>
                 <p class="testimonials__name">-Ed, Mortgage Loan Officer in Buffalo</p>
             </div>
             <div class="testimonials__container">
-                <img src="dist/assets/Mark.png">
-                <p class="testimonials__quote">"The senior management is very committed to the mortgage lending 
+                <img class="testimonials__image" src="dist/assets/Mark.png">
+                <p class="testimonials__text">
+                    "The senior management is very committed to the mortgage lending 
                     business on every level - from the top, down. We're all going in the same direction and that's what I 
                     like. So, if I have a question or idea, I can get answers. They listen and we get things done.
                      They are really investing to grow the mortgage business."
@@ -88,9 +105,10 @@
                 <p class="testimonials__name">-Mark, Senior Mortgage Loan Officer in Chicago</p>
             </div>
             <div class="testimonials__container">
-                <img src="dist/assets/John.png">
-                <p class="testimonials__quote">"It is so great to be part of an organization that is looking for solutions
-                    and creativity versus creating barriers that cuase problems"
+                <img class="testimonials__image"  src="dist/assets/John.png">
+                <p class="testimonials__text">
+                    "It is so great to be part of an organization that is looking for solutions
+                    and creativity versus creating barriers that cause problems"
                 </p>
                 <p class="testimonials__name">-John, Mortgage Loan Officer in Charleston</p>
             </div>
@@ -106,14 +124,14 @@
             <img src="dist/assets/linkedin.svg">
             <img src="dist/assets/youtube.svg">
         </div>
-        <p>It is the policy of Citizens Bank to provide equal employment and advancement opportunities to all colleagues and applicants for employment without regard to race, color, ethnicity, religion, gender, pregnancy/childbirth, age, national origin, sexual orientation, gender identity or expression, disability or perceived disability, genetic information, citizenship, veteran or military status, marital or domestic partner status, or any other category protected by federal, state and/or local laws.
+        <p class="footer__disclaimer">It is the policy of Citizens Bank to provide equal employment and advancement opportunities to all colleagues and applicants for employment without regard to race, color, ethnicity, religion, gender, pregnancy/childbirth, age, national origin, sexual orientation, gender identity or expression, disability or perceived disability, genetic information, citizenship, veteran or military status, marital or domestic partner status, or any other category protected by federal, state and/or local laws.
             Equal Opportunity & Affirmative Action Employer Disabled/Veteran-Citizens Bank is a brand name of Citizens Bank, N.A. and each of its respective subsidiaries, and Citizens Bank of Pennsylvania.
-            <a href="#">Click here to review "EEO is The Law" poster</a>. For additional information, <a href="#">click here</a>.
+            <a class="footer__disclaimer-link" href="#">Click here to review "EEO is The Law" poster</a>. For additional information, <a class="footer__disclaimer-link" href="#">click here</a>.
         </p>
         <div>
-            <a href="#">Privacy Statement</a>
+            <a class="footer__nav" href="#">Privacy Statement</a>
             |
-            <a href="#">Site Map</a>
+            <a class="footer__nav" href="#">Site Map</a>
         </div>
     </div>
     </footer>

@@ -1,5 +1,16 @@
+//hr divider styling
+
 hr {
     height: 1px;
     background-color: var(--hr-color);
     border: none;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+
+    @media (min-width: 1024px)
+{
+    display: none;
+
 }
+}
+

@@ -1,8 +1,34 @@
 .footer {
     border-top: 1px solid var(--accent-color);
+    
+    &__content {
+
+        > * {
+            margin: 2rem 3rem 2rem 3rem;
+        }
+    }
 
     &__social {
         display: flex;
         gap: 1rem;
+    }
+
+    &__disclaimer {
+        font-size: .9rem;
+        line-height: 1.2;
+    }
+
+    &__disclaimer-link {
+        text-decoration: underline;
+        
+    }
+
+    &__disclaimer-link, 
+    &__disclaimer {
+        color: var(--alt-text-color)
+    }
+
+    &__nav {
+        color: black;
     }
 }
