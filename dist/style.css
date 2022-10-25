@@ -76,12 +76,9 @@ a:active {
   }
 }
 
-.hero {
-  width: 100%;
-  overflow: hidden;
-}
 .hero .mobile {
   display: block;
+  min-width: 100vw;
 }
 .hero .desktop {
   display: none;

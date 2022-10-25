@@ -1,11 +1,9 @@
 @use "../base";
 
 .hero {
-  width: 100%;
-  overflow: hidden;
-
   .mobile {
     display: block;
+    min-width: 100vw;
   }
 
   .desktop {
