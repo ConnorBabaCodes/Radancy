@@ -3,7 +3,7 @@
 .hero {
   .mobile {
     display: block;
-    min-width: 100vw;
+    min-width: 100%;
   }
 
   .desktop {
@@ -16,6 +16,7 @@
     }
     .desktop {
       display: block;
+      min-width: 100%;
     }
   }
 }
