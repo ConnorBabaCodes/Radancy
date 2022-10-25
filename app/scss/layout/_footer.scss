@@ -19,7 +19,7 @@
   }
 
   &__disclaimer {
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     line-height: 1.2;
   }
 
@@ -32,9 +32,10 @@
     color: var(--alt-text-color);
   }
 
-  &__nav {
+  &__nav-link {
     color: black;
     transition: 0.2s;
+    font-size: 0.8rem;
 
     &:hover {
       color: var(--accent-color);

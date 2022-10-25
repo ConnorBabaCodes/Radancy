@@ -3,7 +3,9 @@ html {
   font-size: 100%;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   box-sizing: inherit;
 }
 
@@ -94,7 +96,7 @@ a:active {
   margin-bottom: 2rem;
 }
 .career__header {
-  margin-bottom: 0.75rem;
+  margin-bottom: 0.9rem;
 }
 .career__center {
   display: flex;
@@ -141,7 +143,7 @@ a:active {
   margin-bottom: 2rem;
 }
 .citizens-advantage__header {
-  margin-bottom: 0.75rem;
+  margin-bottom: 0.9rem;
 }
 .citizens-advantage__link {
   color: var(--link-color);
@@ -150,9 +152,6 @@ a:active {
 .citizens-advantage__link:hover {
   color: var(--button-color);
 }
-.citizens-advantage__carrot {
-  font-size: 1.2rem;
-}
 @media (min-width: 1024px) {
   .citizens-advantage {
     margin-bottom: 4rem;
@@ -160,6 +159,7 @@ a:active {
   .citizens-advantage__list {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    margin-top: 3rem;
     row-gap: 6rem;
   }
   .citizens-advantage__right {
@@ -174,6 +174,10 @@ a:active {
   }
   .citizens-advantage__text {
     margin-bottom: 0;
+  }
+  .citizens-advantage__link {
+    display: block;
+    margin-top: 1rem;
   }
 }
 
@@ -192,7 +196,7 @@ a:active {
   width: 30px;
 }
 .footer__disclaimer {
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   line-height: 1.2;
 }
 .footer__disclaimer-link {
@@ -201,11 +205,12 @@ a:active {
 .footer__disclaimer-link, .footer__disclaimer {
   color: var(--alt-text-color);
 }
-.footer__nav {
+.footer__nav-link {
   color: black;
   transition: 0.2s;
+  font-size: 0.8rem;
 }
-.footer__nav:hover {
+.footer__nav-link:hover {
   color: var(--accent-color);
 }
 
