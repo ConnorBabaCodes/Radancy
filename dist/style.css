@@ -251,7 +251,7 @@ hr {
 .testimonials__text {
   color: var(--alt-text-color);
   font-style: italic;
-  background-image: url("quote.svg");
+  background-image: url("assets/quote.svg");
   background-repeat: no-repeat;
   background-size: 5rem;
 }
