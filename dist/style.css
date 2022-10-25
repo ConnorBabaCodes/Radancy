@@ -76,20 +76,53 @@ a:active {
   }
 }
 
-.hero .mobile {
-  display: block;
-  min-width: 100vw;
-}
-.hero .desktop {
-  display: none;
-}
-@media (min-width: 1024px) {
-  .hero .mobile {
-    display: none;
-  }
-  .hero .desktop {
+.hero {
+  padding-top: 30%;
+  padding-bottom: 30%;
+  background-image: url("assets/mobile-m.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  /*  .mobile {
     display: block;
     min-width: 100vw;
+  }
+
+  .desktop {
+    display: none;
+  }
+
+  @include base.lg {
+    .mobile {
+      display: none;
+    }
+    .desktop {
+      display: block;
+      min-width: 100vw;
+    }
+  }
+
+  */
+}
+@media (min-width: 720px) {
+  .hero {
+    background-image: url("assets/mobile-l.png");
+  }
+}
+@media (min-width: 1024px) {
+  .hero {
+    background-image: url("assets/Banner-s.png");
+    padding-top: 17%;
+    padding-bottom: 17%;
+  }
+}
+@media (min-width: 1200px) {
+  .hero {
+    background-image: url("assets/Banner-m.png");
+  }
+}
+@media (min-width: 1600px) {
+  .hero {
+    background-image: url("assets/Banner-l.png");
   }
 }
 
