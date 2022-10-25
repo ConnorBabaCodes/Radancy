@@ -82,26 +82,6 @@ a:active {
   background-image: url("assets/mobile-m.png");
   background-repeat: no-repeat;
   background-size: cover;
-  /*  .mobile {
-    display: block;
-    min-width: 100vw;
-  }
-
-  .desktop {
-    display: none;
-  }
-
-  @include base.lg {
-    .mobile {
-      display: none;
-    }
-    .desktop {
-      display: block;
-      min-width: 100vw;
-    }
-  }
-
-  */
 }
 @media (min-width: 720px) {
   .hero {
@@ -115,12 +95,12 @@ a:active {
     padding-bottom: 17%;
   }
 }
-@media (min-width: 1200px) {
+@media (min-width: 1150px) {
   .hero {
     background-image: url("assets/Banner-m.png");
   }
 }
-@media (min-width: 1600px) {
+@media (min-width: 1400px) {
   .hero {
     background-image: url("assets/Banner-l.png");
   }

@@ -17,32 +17,11 @@
     padding-bottom: 17%;
   }
 
-  @media (min-width: 1200px) {
+  @media (min-width: 1150px) {
     background-image: url("assets/Banner-m.png");
   }
 
-  @media (min-width: 1600px) {
+  @media (min-width: 1400px) {
     background-image: url("assets/Banner-l.png");
   }
-
-  /*  .mobile {
-    display: block;
-    min-width: 100vw;
-  }
-
-  .desktop {
-    display: none;
-  }
-
-  @include base.lg {
-    .mobile {
-      display: none;
-    }
-    .desktop {
-      display: block;
-      min-width: 100vw;
-    }
-  }
-
-  */
 }
