@@ -105,6 +105,11 @@ a:active {
     background-image: url("assets/Banner-l.png");
   }
 }
+@media (min-width: 1800px) {
+  .hero {
+    background-image: url("assets/Banner-xl.png");
+  }
+}
 
 .career > * {
   margin-top: 2rem;
