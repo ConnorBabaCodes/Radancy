@@ -78,7 +78,7 @@ a:active {
 
 .hero .mobile {
   display: block;
-  min-width: 100%;
+  min-width: 100vw;
 }
 .hero .desktop {
   display: none;
@@ -89,7 +89,7 @@ a:active {
   }
   .hero .desktop {
     display: block;
-    min-width: 100%;
+    min-width: 100vw;
   }
 }
 
