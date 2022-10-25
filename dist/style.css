@@ -128,7 +128,8 @@ a:active {
   background-color: var(--secondary-color);
   padding: 1rem;
 }
-.citizens-home-loans__dark-green, .citizens-home-loans__light-green {
+.citizens-home-loans__dark-green,
+.citizens-home-loans__light-green {
   margin-top: 0;
   margin-bottom: 0;
 }
@@ -202,7 +203,8 @@ a:active {
 .footer__disclaimer-link {
   text-decoration: underline;
 }
-.footer__disclaimer-link, .footer__disclaimer {
+.footer__disclaimer-link,
+.footer__disclaimer {
   color: var(--alt-text-color);
 }
 .footer__nav-link {
@@ -249,7 +251,7 @@ hr {
 .testimonials__text {
   color: var(--alt-text-color);
   font-style: italic;
-  background-image: url("/dist/assets/quote.svg");
+  background-image: url("assets/quote.svg");
   background-repeat: no-repeat;
   background-size: 5rem;
 }
@@ -258,7 +260,8 @@ hr {
   font-size: 1.1rem;
   position: ab;
 }
-.testimonials__name, .testimonials__text {
+.testimonials__name,
+.testimonials__text {
   text-align: center;
 }
 
@@ -268,6 +271,6 @@ hr {
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
     -moz-column-gap: 4rem;
-         column-gap: 4rem;
+    column-gap: 4rem;
   }
-}/*# sourceMappingURL=style.css.map */
+} /*# sourceMappingURL=style.css.map */
